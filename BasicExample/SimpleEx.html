@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Jasmine Test Example</title>
+ 
+    <link rel="stylesheet" href="../scripts/jasmine-2.0.0/jasmine.css" />
+</head>
+<body>    
+    <script src="../scripts/jasmine-2.0.0/jasmine.js"></script>
+    <script type="text/javascript" src="../scripts/jasmine-2.0.0/jasmine-html.js"></script>
+    <script type="text/javascript" src="../scripts/jasmine-2.0.0/boot.js"></script>
+    <!-- include source files here... -->
+    <script type="text/javascript" src="../src/JavascriptFunctions.js"></script>    
+    <!-- include spec files here... -->    
+    <script type="text/javascript" src="../spec/JavascriptFunctionsSpec.js"></script>
+    <script>    
+    	describe("A suite", function() {
+    	  it("contains spec with an expectation", function() {
+    	    expect(true).toBe(true);
+    	  });
+    	});
+    </script>
+</body>
+</html>
